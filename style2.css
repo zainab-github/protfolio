@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #222;
+  color: #222;
+}
+h1 {
+  color: crimson;
+}
+.resume {
+  text-align: center;
+  background-color: #222;
+  color: blanchedalmond;
+}
+.resume:hover {
+  transform: translateY(-10px);
+}
+.cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: rgb(37, 87, 135);
+  background-color: transparent;
+  border: 2px solid rgb(26, 78, 128);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease background-color, color;
+}
+
+.cta:hover {
+  color: white;
+  background-color: rgb(38, 44, 120);
+  backgroun hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  d-color: rgb(26, 78, 128);
+}
