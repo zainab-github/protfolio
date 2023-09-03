@@ -164,6 +164,11 @@ section .title::after {
   filter: brightness(90%);
 }
 /* home section styling */
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .home {
   display: flex;
   background: url("img/s3.jpg") no-repeat center;
@@ -531,6 +536,9 @@ section .title::after {
 .right form .button-area button:hover {
   color: crimson;
   background: none;
+}
+.row a{
+  color:#686464
 }
 /* footer section styling */
 footer {
